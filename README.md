@@ -94,4 +94,3 @@ The `ThirdParty` directory is added to `HEADER_SEARCH_PATHS` in the Xcode projec
 | `GET /data/2.5/weather?lat=&lon=&appid=&units=metric` | Current weather |
 | `GET /data/2.5/forecast?lat=&lon=&appid=&units=metric` | 5-day / 3-hour forecast |
 
-> Note: The forecast endpoint returns 3-hour intervals. The bridge groups them by UTC day and aggregates daily min/max temperature, average pressure, humidity, and cloudiness. Visibility is not included in forecast entries and is shown as "—" for future days.
